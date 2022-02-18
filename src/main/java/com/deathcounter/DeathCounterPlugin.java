@@ -18,7 +18,7 @@ import java.awt.image.BufferedImage;
 
 @PluginDescriptor(
         name = "Death Counter",
-        description = "Shows death of players around you and tells you their name",
+        description = "Shows death of players around you and tells you their name.",
         tags = {}
 )
 
