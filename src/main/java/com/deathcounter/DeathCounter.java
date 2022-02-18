@@ -1,4 +1,4 @@
-package com.DeathCounter;
+package com.deathcounter;
 
 import lombok.Getter;
 import net.runelite.client.plugins.Plugin;
@@ -29,6 +29,6 @@ class DeathCounter extends Counter
     @Override
     public String getTooltip()
     {
-        return "Dude got roasted lmao";
+        return "Deaths";
     }
 }

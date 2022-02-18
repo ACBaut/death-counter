@@ -1,4 +1,4 @@
-package com.DeathCounter;
+package com.deathcounter;
 
 import net.runelite.api.*;
 import net.runelite.api.events.AnimationChanged;
@@ -17,7 +17,7 @@ import javax.inject.Inject;
 import java.awt.image.BufferedImage;
 
 @PluginDescriptor(
-        name = "Bam Death Counter",
+        name = "Death Counter",
         description = "Shows death of players around you",
         tags = {}
 )
@@ -63,7 +63,7 @@ public class DeathCounterPlugin extends Plugin
         if (counterBox != null){
             counterBox.setCount(counterBox.getCount() + 1);
 
-            sendChatMessage(actor.getName() + "just got smoked!");
+            sendChatMessage(actor.getName() + "just lost bank!");
         }
 
         else{
